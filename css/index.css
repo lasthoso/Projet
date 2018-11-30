@@ -1,18 +1,21 @@
 img{
 	height: 15%;
 	width: 75%;
-	float: left; 
+	float: left;
 }
 
 img#qoter{
+	margin-left: 5%;
 	height: 15%;
 	width: 15%;
 	float: left;
 }
 
 div#cover{
- 	width: 100%;
-    height: 15%;
-    background-image: url('../media/img/tittle.png');
-    background-size: 100% 100%;
+	padding-bottom: 15%;
+	width: 100%;
+	height: 15%;
+	display: block;
+	background-image: linear-gradient(white, #008FFF);
+	background-size: 100% 100%;
 }
