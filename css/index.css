@@ -23,7 +23,7 @@ div#cover{
 html{
 	width: 100%;
 	height: 100%;
-	background-image: linear-gradient(cyan, darkblue);
+	background-image: linear-gradient(cyan, blue);
 	background-size: 100% 100%;
 	background-repeat: no-repeat;
     background-attachment: fixed;
