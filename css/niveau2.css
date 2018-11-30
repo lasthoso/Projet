@@ -1,0 +1,36 @@
+.titre{
+	display: block;
+	text-align: center;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: xx-large;
+}
+.stitre{
+	margin-left: 10%;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: x-large;
+}
+.stitre2{
+	margin-left: 6.5%;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: x-large;
+}
+.justify{
+	text-align: justify;
+	font-size: large;
+}
+.rq{
+	text-decoration: underline;
+}
+.compet{
+	text-align: justify;
+}
+a{
+color: #530496 ;
+text-decoration: none;
+}
+a:active, a:visited{
+	color: #000F5D ;
+}
