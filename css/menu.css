@@ -1,0 +1,50 @@
+#menu{
+  background: black;
+}
+
+#menu-deroulant{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+#menu-deroulant, #menu-deroulant ul{
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+#menu-deroulant{
+  text-align: center;
+}
+#menu-deroulant li{
+  display: inline-block;
+}
+
+#menu-deroulant li:hover{
+  background: blue;
+}
+#menu-deroulant ul li{
+  display: inherit;
+}
+#menu-deroulant a{
+  display: block;
+  color: white;
+  background: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+#menu-deroulant a:hover{
+background: blue;
+}
+
+#menu-deroulant ul{
+  position: absolute;
+  left: -999em;
+  text-align: left;
+  z-index: 1000;
+}
+#menu-deroulant li:hover ul{
+  left: auto;
+}
