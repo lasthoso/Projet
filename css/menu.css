@@ -1,9 +1,7 @@
 #menu{
   background: black;
   font-size: x-large;
-}
-
-#menu-deroulant{
+  font-family: Courier ;
   position: sticky;
   position: -webkit-sticky;
   top: 0;
