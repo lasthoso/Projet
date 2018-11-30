@@ -1,15 +1,28 @@
-ul{
-  list-style: none;
-  margin: 0;
+#menu-deroulant{
+  position: sticky;
+  position: -webkit-sticky;
+  top: 0;
+}
+
+#menu-deroulant, #menu-deroulant ul{
   padding: 0;
-  overflow: hidden;
+  margin: 0;
+  list-style: none;
+}
+#menu-deroulant{
+  text-align: center;
+}
+#menu-deroulant li{
+  display: inline-block;
 }
 
-li{
-  float: left;
+#menu-deroulant li:hover{
+  background: blue;
 }
-
-li a{
+#menu-deroulant ul li{
+  display: inherit;
+}
+#menu-deroulant a{
   display: block;
   color: white;
   background: black;
@@ -18,6 +31,16 @@ li a{
   text-decoration: none;
 }
 
-li a:hover{
-  background: blue;
+#menu-deroulant a:hover{
+background: blue;
+}
+
+#menu-deroulant ul{
+  position: absolute;
+  left: -999em;
+  text-align: left;
+  z-index: 1000;
+}
+#menu-deroulant li:hover ul{
+  left: auto;
 }
