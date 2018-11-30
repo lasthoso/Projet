@@ -1,10 +1,25 @@
-div.degrad{
-background-image : "../media/img/plongeur.jpg" ;
-background-repeat: no-repeat;
-background-size: 100% 100% ;
-position: fixed;
-}
 img.degrad{
-	width : 5%;
-	height : 5%
+	width : 10%;
+	height : 10%
+}
+#youtube{
+	margin-right: 100% ;
+}
+#wikipedia{
+	margin-right: 100% ;
+}
+#google{
+	margin-right: 100% ;
+}
+#instagram{
+	margin-right: 100% ;
+}
+#twitter{
+	margin-right: 100% ;
+}
+#gmail{
+	margin-right: 100% ;
+}
+#facebook{
+	margin-right: 100% ;
 }
