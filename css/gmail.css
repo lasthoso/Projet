@@ -1,6 +1,16 @@
-.gmail{
-display : block ;
-margin : auto ;	
-height : 50%;
-width : 50%;
+input:invalid{
+	background: red;
+}
+
+input:optional{
+	background: yellow;
+}
+
+input:valid{
+	background: lime;
+}
+
+input[type=submit], input[type=reset]{
+	background-image: linear-gradient(lime, red);
+	border: darkblue;
 }
