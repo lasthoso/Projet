@@ -5,7 +5,7 @@ year.innerHTML = today.getFullYear();
 
 var month = document.getElementById('month');
 var m = new Array("Janvier", "Février", "Mars", "Avril", "Mai", "Juin", "Juillet", "Août", "Septembre", "Octobre", "Novembre", "Décembre");
-month.innerHTML = m[today.getMonth()] + "<br>";
+month.innerHTML = m[today.getMonth()] + " ";
 
 var day = document.getElementById('day');
-day.innerHTML = today.getDate() + "<br>";
+day.innerHTML = today.getDate() + " ";

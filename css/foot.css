@@ -16,7 +16,10 @@ span#right{
   margin-right: 1%; 
 }
 
-a#mail{
-  color: white;
+address{
   display: inline-block;
+}
+
+address a{
+  color: white;
 }
