@@ -50,9 +50,40 @@
 			<li><a href="contact.html">Contact</a></li>
 		</ul>
 	</div>
-	<div>		
-	<img src="../media/img/mail.png" alt="notre e-mail" class="gmail"/>
-	</div>
+
+
+
+
+
+	<form>
+		<fieldset>
+			<legend>A propos de vous</legend>
+			Nom : <br>
+			<input type="text" name="lastname"><br>
+			Prenom : <br>
+			<input type="text" name="name"><br>
+			Votre genre :<br>
+			<input type="radio" name="gender" value="male" onchange="lockAlt()"> Homme<br>
+			<input type="radio" name="gender" value="female" onchange="lockAlt()"> Femme<br>
+			<input type="radio" name="gender" value="other" onchange="unlockAlt()"> Autre, precisez<br>
+			<input type="text" id="altgender" name="altgender" value="" readonly="true"><br>
+			Les sports que vous pratiquez :<br>
+			<input type="checkbox" name="s1"> Plongée<br>
+			<input type="checkbox" name="s2"> Tenis<br>
+			<input type="checkbox" name="s3"> Handball<br>
+			<input type="checkbox" name="s4"> Rugby<br>
+			<input type="checkbox" name="s5"> Football<br>
+			<input type="checkbox" name="s6"> Golf<br>
+			Votre couleur preferée :<br>
+			<input type="color" name="c" value="#00FF00"><br>
+		</fieldset>
+
+	</form>
+
+
+
+
+
 
 	<br><br><br><br>
 	<div id="footpage">
@@ -67,5 +98,6 @@
 
 	<script src="../js/date.js"></script>
 	<script src="../js/index.js"></script>
+	<script src="../js/gmail.js"></script>
 </body>
 </html>
