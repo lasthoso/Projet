@@ -1,25 +1,7 @@
-img.degrad{
+.degrad img{
 	width : 10%;
-	height : 10%
+	height : 10%;
 }
-#youtube{
-	margin-right: 100% ;
-}
-#wikipedia{
-	margin-right: 100% ;
-}
-#google{
-	margin-right: 100% ;
-}
-#instagram{
-	margin-right: 100% ;
-}
-#twitter{
-	margin-right: 100% ;
-}
-#gmail{
-	margin-right: 100% ;
-}
-#facebook{
+.degrad{
 	margin-right: 100% ;
 }
