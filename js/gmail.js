@@ -5,3 +5,7 @@ function lockAlt() {
 function unlockAlt() {
 	document.getElementById("altgender").readOnly = false;
 }
+
+function switchSport() {
+	document.getElementById("sport").readOnly = !document.getElementById("ot").checked;
+}
