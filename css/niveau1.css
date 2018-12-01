@@ -40,3 +40,6 @@ a:active, a:visited{
 	display: block;
 	margin-left: 2%;
 }
+ul, li{
+	list-style-type: circle;
+}
