@@ -1,7 +1,7 @@
 h1{
 	font-size: xx-large;
 	text-decoration: underline;
-	text-align:center;
+	margin-left: 38%;
 }
 a{
 color: #530496 ;
@@ -27,4 +27,9 @@ caption{
 	text-decoration: underline;
 	font-weight: bold;
 	text-align: center;
+}
+.baby{
+	height: 10%;
+	width: 10%;
+	margin-left: 2%;
 }
