@@ -3,7 +3,7 @@
   font-size: x-large;
   font-family: Courier ;
   position: sticky;
-  position: -webkit-sticky;
+  position: -webkit-sticky; /*Safari*/
   top: 0;
 }
 
