@@ -31,3 +31,14 @@ html{
 body{
 	font-family: Courier ;
 }
+iframe{
+	border: 1px solid black;
+	display: block;
+	margin: auto;
+}
+h1{
+	text-align: center;
+	text-decoration: underline;
+	font-weight: bold;
+	color: #08088A;
+}
