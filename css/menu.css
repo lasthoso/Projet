@@ -17,7 +17,6 @@
 }
 #menu-deroulant li{
   display: inline-block;
-  width: 12%;
 }
 
 #menu-deroulant li:hover{
@@ -44,7 +43,6 @@ background: blue;
   left: -999em;
   text-align: left;
   z-index: 1000;
-  width: 100%;
 }
 #menu-deroulant li:hover ul{
   left: auto;
