@@ -60,32 +60,32 @@
 			<legend>A propos de vous</legend>
 			Nom : <br>
 			<input type="text" name="lastname" placeholder="Salomon" required><br>
-			Prenom : <br>
+			Prénom : <br>
 			<input type="text" name="firstname" placeholder="Ikar" required><br>
 			Votre genre :<br>
 			<input type="radio" name="gender" value="male" onchange="lockAlt()" checked> Homme<br>
 			<input type="radio" name="gender" value="female" onchange="lockAlt()"> Femme<br>
-			<input type="radio" name="gender" value="other" onchange="unlockAlt()"> Autre, precisez<br>
+			<input type="radio" name="gender" value="other" onchange="unlockAlt()"> Autre, précisez :<br>
 			<input type="text" id="altgender" name="altgender" value="" readonly><br>
 			Date de naissance :<br>
 			<input type="date" name="bday" required><br>
 			Les sports que vous pratiquez :<br>
 			<input type="checkbox" name="plongee"> Plongée<br>
-			<input type="checkbox" name="tenis"> Tenis<br>
+			<input type="checkbox" name="tenis"> Tennis<br>
 			<input type="checkbox" name="hand"> Handball<br>
 			<input type="checkbox" name="rugby"> Rugby<br>
 			<input type="checkbox" name="foot"> Football<br>
-			<input id="ot" type="checkbox" name="s6" onchange="switchSport()"> Autre<br>
+			<input id="ot" type="checkbox" name="s6" onchange="switchSport()"> Autre(s) :<br>
 			<input type="text" id="sport" name="sport" value="" readonly><br>
-			Votre couleur preferée :<br>
+			Votre couleur préferée :<br>
 			<input type="color" name="colorfav"><br>
-			Votre telephone :<br>
+			Votre téléphone :<br>
 			<input type="tel" name="phone" placeholder="0666666666" required><br>
 			Votre e-mail :<br>
 			<input type="email" name="usrmail" placeholder="yourname@somesite.com" required><br>
 		</fieldset>
 		<fieldset>
-			<legend>Votre message</legend>
+			<legend>Votre message :</legend>
 			<textarea placeholder="Votre message" rows="23" cols="100" required></textarea>
 		</fieldset>
 		<input type="button" name="submit" value="Valider" onclick="check()"><input type="reset" name="reset">
