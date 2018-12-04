@@ -9,3 +9,9 @@ function unlockAlt() {
 function switchSport() {
 	document.getElementById("sport").readOnly = !document.getElementById("ot").checked;
 }
+
+function check() {
+	if(){
+		
+	}
+}

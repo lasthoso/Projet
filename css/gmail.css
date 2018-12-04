@@ -1,16 +1,20 @@
 input:invalid{
 	background: red;
+	color: white;
 }
 
 input:optional{
-	background: yellow;
+	background: black;
+	color: white;
 }
 
 input:valid{
-	background: lime;
+	background: blue;
+	color: white;
 }
 
 input[type=submit], input[type=reset]{
-	background-image: linear-gradient(lime, red);
+	background-image: linear-gradient(blue, black);
 	border: darkblue;
+	color: white;
 }
