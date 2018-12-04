@@ -1,25 +1,3 @@
-img{
-	height: 15%;
-	width: 75%;
-	float: left;
-}
-
-img#qoter{
-	margin-left: 5%;
-	height: 15%;
-	width: 15%;
-	float: left;
-}
-
-div#cover{
-	padding-bottom: 15%;
-	width: 100%;
-	height: 15%;
-	display: block;
-	background-image: linear-gradient(white, #008FFF);
-	background-size: 100% 100%;
-}
-
 html{
 	width: 100%;
 	height: 100%;
@@ -28,7 +6,26 @@ html{
 	background-repeat: no-repeat;
     background-attachment: fixed;
 }
-body{
+img#logo{
+	height: 15%;
+	width: 75%;
+	float: left;
+}
+img#qoter{
+	margin-left: 5%;
+	height: 15%;
+	width: 15%;
+	float: left;
+}
+div#cover{
+	padding-bottom: 15%;
+	width: 100%;
+	height: 15%;
+	display: block;
+	background-image: linear-gradient(white, #008FFF);
+	background-size: 100% 100%;
+}
+div#menu{
 	font-family: Courier ;
 }
 iframe{
@@ -36,9 +33,23 @@ iframe{
 	display: block;
 	margin: auto;
 }
-h1{
+.titre1{
 	text-align: center;
 	text-decoration: underline;
-	font-weight: bold;
-	color: #08088A;
+	color: red;
+	font-family: Brush Script MT ;
+	font-size: 100px;
+}
+.titre2{
+	text-align: center;
+	text-decoration: underline;
+	color: red;
+	font-family: Brush Script MT ;
+	font-size: 130px;
+}
+.description{
+	font-size: xx-large;
+	text-align: center;
+	color: #8A0808;
+	font-family: Brush Script MT ;
 }

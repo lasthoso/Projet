@@ -9,6 +9,7 @@ div#footpage{
   padding-bottom: .5%;
   margin-left: -8px;
   font-size: large;
+  font-family: Courier ;
 }
 
 span.right, address.right{
