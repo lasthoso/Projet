@@ -1,15 +1,5 @@
-input:invalid{
-	background: red;
-	color: white;
-}
-
-input:optional{
+input{
 	background: black;
-	color: white;
-}
-
-input:valid{
-	background: blue;
 	color: white;
 }
 

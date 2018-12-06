@@ -59,16 +59,16 @@
 		<fieldset>
 			<legend>A propos de vous</legend>
 			Nom : <br>
-			<input type="text" name="lastname" placeholder="Salomon" required><br>
+			<input id="lastname" type="text" name="lastname" placeholder="Salomon"><br>
 			Prénom : <br>
-			<input type="text" name="firstname" placeholder="Ikar" required><br>
+			<input id="firstname" type="text" name="firstname" placeholder="Ikar"><br>
 			Votre genre :<br>
 			<input type="radio" name="gender" value="male" onchange="lockAlt()" checked> Homme<br>
 			<input type="radio" name="gender" value="female" onchange="lockAlt()"> Femme<br>
-			<input type="radio" name="gender" value="other" onchange="unlockAlt()"> Autre, précisez :<br>
+			<input type="radio" id="other" name="gender" value="other" onchange="unlockAlt()"> Autre, précisez :<br>
 			<input type="text" id="altgender" name="altgender" value="" readonly><br>
 			Date de naissance :<br>
-			<input type="date" name="bday" required><br>
+			<input type="date" name="bday"><br>
 			Les sports que vous pratiquez :<br>
 			<input type="checkbox" name="plongee"> Plongée<br>
 			<input type="checkbox" name="tenis"> Tennis<br>
@@ -80,13 +80,13 @@
 			Votre couleur préferée :<br>
 			<input type="color" name="colorfav"><br>
 			Votre téléphone :<br>
-			<input type="tel" name="phone" placeholder="0666666666" required><br>
+			<input type="tel" name="phone" placeholder="0666666666"><br>
 			Votre e-mail :<br>
-			<input type="email" name="usrmail" placeholder="yourname@somesite.com" required><br>
+			<input type="email" name="usrmail" placeholder="yourname@somesite.com"><br>
 		</fieldset>
 		<fieldset>
 			<legend>Votre message :</legend>
-			<textarea placeholder="Votre message" rows="23" cols="100" required></textarea>
+			<textarea placeholder="Votre message" rows="23" cols="100" id="message"></textarea>
 		</fieldset>
 		<input type="button" name="submit" value="Valider" onclick="check()"><input type="reset" name="reset">
 	</form>
