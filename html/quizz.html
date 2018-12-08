@@ -1,0 +1,107 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+	<title>O mergulho do peixe vermelho</title>
+	<meta charset="utf-8">
+	<meta name="name" content="GUYOT">
+	<meta name="name" content="DACRUZ">
+	<link rel="stylesheet" type="text/css" href="../css/index.css">
+	<link rel="stylesheet" type="text/css" href="../css/menu.css">
+	<link rel="stylesheet" type="text/css" href="../css/foot.css">
+	<link rel="stylesheet" type="text/css" href="../css/quizz.css">
+</head>
+<body>
+	<div id="cover">
+		<a href="index.html">
+			<img src="../media/img/logoFull.png" alt="logo" id="logo">
+		</a>
+		<img id="qoter" src="../media/img/quote0.png" alt="quote">
+	</div>
+
+	<div id="menu">
+		<ul id="menu-deroulant">
+			<li><a href="">&lt;</a></li>
+			<li><a href="index.html">Home</a></li>
+			<li><a href="html/niveau.html">Niveaux</a>
+				<ul>
+					<li><a href="html/niveau1.html">N1</a></li>
+					<li><a href="html/niveau2.html">N2</a></li>
+					<li><a href="html/niveau3.html">N3</a></li>
+					<li><a href="html/niveau4.html">N4</a></li>
+				</ul>
+			</li>
+			<li><a href="html/penfant.html">Plongée enfant</a></li>
+			<li><a href="html/pdecouverte.html">Plongée découverte</a>
+				<ul>
+					<li><a href="html/psouterraine.html">Plongée souterraine</a></li>
+					<li><a href="html/chassesm.html">Chasse sous-marine</a></li>
+					<li><a href="html/apnee.html">Apnée</a></li>
+					<li><a href="html/monopalme.html">Monopalme</a></li>
+				</ul>
+			</li>
+			<li><a href="html/moniteur.html">Moniteur</a>
+				<ul>
+					<li><a href="html/E1.html">E1</a></li>
+					<li><a href="html/E2.html">E2</a></li>
+					<li><a href="html/E3.html">E3</a></li>
+				</ul>
+			</li>
+			<li><a href="html/histoire.html">Histoire</a></li>
+			<li><a href="html/contact.html">Contact</a></li>
+			<li><a href="html/niveau.html">&gt;</a></li>
+		</ul>
+	</div>
+	
+	<form>
+		<fieldset>
+			<legend>QUESTIONS</legend>
+			<h3>A partir de quel âge la plongée en scaphandre est autorisée ?</h3>
+			<input type="number" name="q1" id="q1" class="neutral"> ans.<br>
+			<h3>Quelle est la profondeur maximale autorisée par un plongeur bronze ou argent ?</h3>
+			<input type="number" name="q2" id="q2" class="neutral"> mètres.<br>
+			<h3>Comment se nomment les niveaux inferieurs à Bronze, Argent et Or ?</h3>
+			Les <input type="text" name="q3" id="q3" class="neutral">.<br>
+			<h3>A quel niveau est equivalent le PE20 ?</h3>
+			Le niveau <input type="number" name="q4" id="q4" class="neutral">.<br>
+			<h3>A partir de quel âge l'autonomie est-elle autorisée en plongée ?</h3>
+			<input type="number" name="q5" id="q5" class="neutral"> ans.<br>
+			<h3>A quelle pronfondeur est un plongeur N3 plongeant en autonomie sans directeur de plongée (DP) ?</h3>
+			<input type="number" name="q6" id="q6" class="neutral"> mètres.<br>
+			<h3>A quel niveau de plongée correspond le role de guide de plongée (GP) ?</h3>
+			Le niveau <input type="number" name="q7" id="q7" class="neutral">.<br>
+			<h3>Quelle est la pronfondeur maximale atteinte par le niveau 4 ?</h3>
+			<input type="number" name="q8" id="q8" class="neutral"> mètres.<br>
+			<h3>Sur une carte de niveau, qu'est-ce qui atteste de l'universalité de celui-ci ?</h3>
+			<input type="text" name="q9" id="q9" class="neutral">.<br>
+			<h3>Quel est le site officiel de plongée sous-marine française ?</h3>
+			<input type="text" name="q0" id="q0" class="neutral">.<br>
+		</fieldset>
+		<fieldset>
+			<legend>BOUTONS</legend>
+			<input type="button" name="submit" onclick="verifyQ()" value="Verifier"><input type="reset" name="reset">
+		</fieldset>
+		<fieldset>
+			<legend>RESULTATS</legend>
+			<p><span id="phr1">Veuillez repondre aux questions.</span></p>
+		</fieldset>
+	</form>
+
+	<br><br><br><br>
+
+	<div id="footpage">
+		<span id="day">jour</span>
+		<span id="month">mois</span>
+		<span id="year">année</span>
+		<address class="right">
+			<a id="mail" href="mailto:omergulhodopeixevermelho@gmail.com">omergulhodopeixevermelho@gmail.com</a>
+		</address>
+		<span class="right">
+			© Melinda DACRUZ & Bastien GUYOT — scholar project —
+		</span>
+	</div>
+
+	<script src="../js/date.js"></script>
+	<script src="../js/index.js"></script>
+	<script src="../js/quizz.js"></script>
+</body>
+</html>
