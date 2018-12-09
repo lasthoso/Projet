@@ -1,4 +1,5 @@
 var i = 0, j = 1;
+change();
 function change(){
 	var id = setInterval(frame, 5);
 	function frame() {
