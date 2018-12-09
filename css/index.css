@@ -28,7 +28,25 @@ div#cover{
 div#menu{
 	font-family: Courier ;
 }
-iframe{
+.welcome{
+	border:none;
+	width: 25%;
+	height: 20%;
+	position: absolute;
+	top: 350px;
+	right: 15px;
+	filter: grayscale(100%);
+}
+.hi{
+	border:none;
+	width: 25%;
+	height:20%;
+	position: absolute;
+	top: 350px;
+	left: 15px;
+	filter:grayscale(100%);
+}
+.film{
 	border: 1px solid black;
 	display: block;
 	margin: auto;
