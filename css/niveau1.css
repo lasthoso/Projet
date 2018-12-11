@@ -146,6 +146,15 @@ ul, li{
 
 /* début du CSS de la 3e partie */ 
 
+.validate{
+	display: block;
+	height: 15%;
+	width: 20%;
+	margin:auto;
+	border:none;
+	margin-top: -40px;
+	margin-bottom: 10px;
+}
 .stitle3{
 	margin-left: 10%;
 	font-weight: bold;

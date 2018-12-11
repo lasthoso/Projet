@@ -50,6 +50,8 @@ div#menu{
 	border: 1px solid black;
 	display: block;
 	margin: auto;
+	width: 600px;
+	height: 500px;
 }
 .titre1{
 	text-align: center;
