@@ -1,0 +1,14 @@
+div#diapoA{
+  background-image: url(../media/img/quote1.png);
+  width: 1536px;
+  height: 1536px;
+}
+
+div#diapoB{
+  background-image: url(../media/img/quote1.png);
+  width: 1536px;
+  height: 1536px;
+  cursor: pointer;
+  margin-top: -1536px;
+  opacity: 1;
+}

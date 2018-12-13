@@ -1,32 +1,205 @@
-h1{
-	display: block;
+/* début du CSS du gros titre */
+.n2{
+	background-image: url("../media/img/niveau/n2.png");
+	background-size: 100% 100%;
+	height: 250px;
+	width: 250px;
+	margin-left: 5%;
+	margin-top: 5%;
+}
+.title{
 	text-align: center;
 	font-weight: bold;
+	font-size: 120px;
 	text-decoration: underline;
-	font-size: xx-large;
+	font-family: Brush Script MT ;
+	margin-top: -320px;
+	color: #B40404;
 }
-h4{
+.dos{
+	border: none;
+	height: 20%;
+	width: 20%;
+	float: right;
+	margin-top: -400px;
+}
+/*fin du CSS du gros titre*/
+
+/* début du CSS de la première partie*/
+.stitle{
 	margin-left: 10%;
 	font-weight: bold;
 	text-decoration: underline;
-	font-size: x-large;
+	font-size: 40px;
+	color:  #0B610B;
+	font-family: Courier;
 }
-.stitre2{
-	margin-left: 6.5%;
-	font-weight: bold;
-	text-decoration: underline;
-	font-size: x-large;
+.profil{
+	display: block;
+	margin:auto;
+	margin-top: -40px;
+	margin-bottom: 10px;
+	height: 15%;
+	width: 20%;
+	border:none;
+}
+.cadre{
+	border: 3px dashed #0B610B;
+	margin-left: 10%;
+	margin-right: 10%;
 }
 .justify{
 	text-align: justify;
 	font-size: large;
+	font-family: Lucida Console ;
+	padding-right: 2%;
+	padding-left: 2%;
+	color: #0B610B;
+	padding:1%;
+}
+#bonhomme{
+	height: 8%;
+	width: 8%;
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 5%;
+}
+#todolist{
+	height: 6%;
+	width: 6%;
+	float: left;
+	margin-left: 1.5%;
+}
+.remarque{
+	font-size: small; 
+	font-family: Lucida Console ;
 }
 .rq{
 	text-decoration: underline;
+	margin-left: 2%;
 }
-.compet{
+
+/*fin du CSS de la première partie*/
+
+.sepa{
+	border: black;
+	background-color: black;
+	height:2px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* début du CSS de la deuxième partie */
+
+.signe{
+	display: block;
+	height: 15%;
+	width: 20%;
+	margin:auto;
+	border:none;
+	margin-top: -40px;
+	margin-bottom: 10px;
+}
+.stitle2{
+	margin-left: 10%;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 40px;
+	color:  #B45F04;
+	font-family: Courier;
+}
+.cadre2{
+	border: 3px dashed #B45F04;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+#head{
+	height: 8%;
+	width: 8%;
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 14%;
+}
+.justify2{
 	text-align: justify;
+	font-size: large;
+	font-family: Lucida Console ;
+	padding-right: 2%;
+	padding-left: 2%;
+	color: #B45F04;
 }
+ul, li{
+	list-style-type: disc;
+}
+
+/* fin du CSS de la 2e partie */
+
+.sepa{
+	border: black;
+	background-color: black;
+	height:2px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+
+/* début du CSS de la 3e partie */ 
+
+.validate{
+	display: block;
+	height: 15%;
+	width: 20%;
+	margin:auto;
+	border:none;
+	margin-top: -40px;
+	margin-bottom: 10px;
+}
+.stitle3{
+	margin-left: 10%;
+	font-weight: bold;
+	text-decoration: underline;
+	font-size: 40px;
+	color: #5F04B4 ;
+	font-family: Courier;
+}
+.cadre3{
+	border: 3px dashed #5F04B4;
+	margin-left: 10%;
+	margin-right: 10%;
+}
+.justify3{
+	text-align: justify;
+	font-size: large;
+	font-family: Lucida Console ;
+	padding-right: 2%;
+	padding-left: 2%;
+	color: #5F04B4;
+}
+#ok{
+	height: 8%;
+	width: 8%;
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 10%;
+}
+
+/* fin du CSS de la 3e partie */ 
+
+.cours{
+	text-align: center;
+	font-size: x-large;
+	font-family: Courier;
+	font-weight: bold;
+	text-decoration: underline;
+}
+.videoniveau{
+	display: block;
+	margin: auto;
+	width: 600px;
+	height: 300px;
+}
+
+/* CSS concernant toute la page */
+
 a{
 color: #000000 ;
 text-decoration: none;
@@ -34,12 +207,5 @@ text-decoration: none;
 a:active, a:visited{
 	color: #0B0B61 ;
 }
-.n2{
-	display: block;
-	height: 10%;
-	width: 10%;
-	margin-left: 2%;
-}
-li, ul{
-	list-style-type: circle;
-}
+
+/* fin du CSS de toute la page */

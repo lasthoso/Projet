@@ -1,10 +1,11 @@
 /* début du CSS du gros titre */
 .n1{
-	height: 40%;
-	width: 20%;
-	position: absolute;
-	top: 330px;
-	left: 25px;
+	background-image: url("../media/img/niveau/n1.png");
+	background-size: 100% 100%;
+	width: 250px;
+	height: 250px;
+	margin-left: 5%;
+	margin-top: 5%;
 }
 .title{
 	text-align: center;
@@ -12,16 +13,15 @@
 	font-size: 120px;
 	text-decoration: underline;
 	font-family: Brush Script MT ;
-	margin-top: -10px;
 	color: #B40404;
+	margin-top: -320px;
 }
 .uno{
 	border: none;
 	height: 20%;
 	width: 20%;
-	position: absolute;
-	top: 370px;
-	right: 15px;
+	float: right;
+	margin-top: -400px;
 }
 
 /*fin du CSS du gros titre*/
@@ -71,6 +71,7 @@
 	padding-right: 2%;
 	padding-left: 2%;
 	color: #0B610B;
+	padding:1%;
 }
 .remarque{
 	font-size: small; 
@@ -196,6 +197,8 @@ ul, li{
 .videoniveau{
 	display: block;
 	margin: auto;
+	width: 600px;
+	height: 300px;
 }
 
 /* CSS concernant toute la page */

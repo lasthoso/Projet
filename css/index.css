@@ -32,18 +32,16 @@ div#menu{
 	border:none;
 	width: 25%;
 	height: 20%;
-	position: absolute;
-	top: 350px;
-	right: 15px;
+	float:right;
+	margin-top: 100px;
 	filter: grayscale(100%);
 }
 .hi{
 	border:none;
 	width: 25%;
 	height:20%;
-	position: absolute;
-	top: 350px;
-	left: 15px;
+	float:left;
+	margin-top: 100px;
 	filter:grayscale(100%);
 }
 .film{
