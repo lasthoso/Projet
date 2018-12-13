@@ -1,11 +1,11 @@
 div#diapoA{
-  background-image: url(../media/img/quote1.png);
+  background-image: url(../media/img/diap/image1.png);
   width: 1536px;
   height: 1536px;
 }
 
 div#diapoB{
-  background-image: url(../media/img/quote1.png);
+  background-image: url(../media/img/diapo/image1.png);
   width: 1536px;
   height: 1536px;
   cursor: pointer;
