@@ -1,7 +1,68 @@
 input.true{
 	background: lime;
 }
-
 input.false{
 	background: red;
+}
+form{
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.title{
+	font-size: xx-large;
+	font-family: Courier;
+	font-style: italic;
+	color: red;
+}
+.title2{
+	font-size: xx-large;
+	font-family: Courier;
+	font-style: italic;
+	color: #B40431;
+
+}
+.first{
+	border: 2px solid red;
+}
+.second{
+	border: 2px solid #B40431;
+}
+#phr1{
+	color: #B40431;
+	font-weight: lighter;
+	font-size: x-large;
+	font-family: Lucida Console;
+}
+h3{
+	text-align: center;
+	font-size: x-large;
+	color: #424242;
+	font-family: Lucida Console;
+	font-weight: lighter;
+}
+input{
+	display: block;
+	margin:auto;
+	color: blue;
+	background-color: blue;
+	border:2px solid black;
+	height: 5%;
+}
+fieldset{
+	text-align: center;
+	color: darkblue;
+	font-family: Courier;
+	font-weight: bold;
+	font-size: large;
+}
+#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10{
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
+}
+#verif, #reset{
+	background-color: black;
+	color: white;
+	border:1px solid lime;
 }

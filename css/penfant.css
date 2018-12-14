@@ -1,7 +1,7 @@
 /* début du CSS du gros titre */
 .baby{
-	height: 20%;
-	width: 20%;
+	height: 10%;
+	width: 10%;
 	display: block;
 	margin-left: 2%;
 	float:left;
@@ -27,7 +27,6 @@
 /*fin du CSS du gros titre*/
 
 /* début du CSS de la première partie*/
-
 .stitle{
 	margin-left: 10%;
 	font-weight: bold;
@@ -36,7 +35,7 @@
 	color:  #0B610B;
 	font-family: Courier;
 }
-.profil{
+#profil{
 	border:none;
 	display: block;
 	margin:auto;
@@ -50,18 +49,18 @@
 	margin-right: 10%;
 }
 #bonhomme{
-	height: 4%;
-	width: 4%;
+	height: 5%;
+	width: 5%;
 	float: left;
-	margin-left: 1.5%;
+	margin-left: 3%;
 	margin-top: 2%;
 }
 #todolist{
 	height: 8%;
 	width: 8%;
 	float: left;
-	margin-left: 1.5%;
-	margin-top: 3.5%;
+	margin-left: 1%;
+	margin-top: 1%;
 }
 .justify{
 	text-align: justify;
@@ -74,24 +73,11 @@
 .remarque{
 	font-size: small; 
 	font-family: Lucida Console ;
+	margin-left: 5%;
 }
-.rq{
-	text-decoration: underline;
-	margin-left: 2%;
-}
-
 /*fin du CSS de la première partie*/
 
-.sepa{
-	border: black;
-	background-color: black;
-	height:2px;
-	margin-left: 5%;
-	margin-right: 5%;
-}
-
 /* début du CSS de la deuxième partie */
-
 .stitle2{
 	margin-left: 10%;
 	font-weight: bold;
@@ -105,34 +91,39 @@
 	margin-left: 10%;
 	margin-right: 10%;
 }
-#head{
+#medaille{
 	height: 8%;
 	width: 8%;
 	float: left;
 	margin-left: 1.5%;
-	margin-top: 14%;
+	margin-top: 23%;
+}
+#blocnote{
+	height: 8%;
+	width:8%;
+	float: left;
+	margin-left: 1.5%;
+	margin-top: 3%;
+}
+.pglobe{
+	border:none;
+	display: block;
+	margin:auto;
+	width: 250px;
+	height: 180px;
+	margin-top: -50px;
 }
 .justify2{
 	text-align: justify;
 	font-size: large;
 	font-family: Lucida Console ;
-	padding-right: 2%;
-	padding-left: 2%;
+	padding: 1%;
 	color: #B45F04;
 }
 ul, li{
-	list-style-type: disc;
+	list-style-type: circle;
 }
-
 /* fin du CSS de la 2e partie */
-
-.sepa{
-	border: black;
-	background-color: black;
-	height:2px;
-	margin-left: 5%;
-	margin-right: 5%;
-}
 
 /* début du CSS de la 3e partie */ 
 .stitle3{
@@ -143,25 +134,31 @@ ul, li{
 	color: #5F04B4 ;
 	font-family: Courier;
 }
-.cadre3{
-	border: 3px dashed #5F04B4;
-	margin-left: 10%;
-	margin-right: 10%;
+table{
+	font-family: Lucida Console;
+	border: 2.5px ridge #5F04B4;
+	border-collapse: collapse;
+	text-align: center;
+	color: #2F0B3A;
 }
-.justify3{
-	text-align: justify;
-	font-size: large;
-	font-family: Lucida Console ;
-	padding-right: 2%;
-	padding-left: 2%;
-	color: #5F04B4;
+th{
+	border: 2px solid #5F04B4;
+	padding: 0.4%;
 }
-#ok{
-	height: 8%;
-	width: 8%;
-	float: left;
-	margin-left: 1.5%;
-	margin-top: 5%;
+td{
+	border: 2px ridge #5F04B4;
+	padding: 1%;
+}
+tr{
+	border: 2px ridge #5F04B4;
+	padding:1%;
+}
+caption{
+	font-size: x-large;
+	text-decoration: underline;
+	font-weight: bold;
+	text-align: center;
+	margin-bottom: 8px;
 }
 /* fin du CSS de la 3e partie */ 
 
@@ -174,7 +171,6 @@ ul, li{
 }
 
 /* CSS concernant toute la page */
-
 a{
 color: #000000 ;
 text-decoration: none;
@@ -182,32 +178,18 @@ text-decoration: none;
 a:active, a:visited{
 	color: #0B0B61 ;
 }
-
+.sepa{
+	border: black;
+	background-color: black;
+	height:2px;
+	margin-left: 5%;
+	margin-right: 5%;
+}
+.videoniveau{
+	display: block;
+	border:none;
+	margin:auto;
+	width: 500px;
+	height: 350px;
+}
 /* fin du CSS de toute la page */
-
-
-
-
-.justify{
-	text-align: justify;
-	font-size: large;
-}
-li, ul{
-	list-style-type: circle;
-}
-table, tr, th, td{
-	border: 1px solid black;
-	border-collapse: collapse;
-	text-align: center;
-}
-caption{
-	font-size: x-large;
-	text-decoration: underline;
-	font-weight: bold;
-	text-align: center;
-}
-.baby{
-	height: 10%;
-	width: 10%;
-	margin-left: 2%;
-}
