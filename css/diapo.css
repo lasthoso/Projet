@@ -1,14 +1,18 @@
 div#diapoA{
-  background-image: url(../media/img/diap/image1.png);
-  width: 1536px;
-  height: 1536px;
+	background-image: url(../media/img/diap/image1.png);
+	background-size: 400px 400px;
+	width: 400px;
+	height: 400px;
+	margin: auto;
 }
 
 div#diapoB{
-  background-image: url(../media/img/diapo/image1.png);
-  width: 1536px;
-  height: 1536px;
-  cursor: pointer;
-  margin-top: -1536px;
-  opacity: 1;
+	background-image: url(../media/img/diapo/image1.png);
+	background-size: 400px 400px;
+	width: 400px;
+	height: 400px;
+	cursor: pointer;
+	margin: auto;
+	margin-top: -400px;
+	opacity: 1;
 }
