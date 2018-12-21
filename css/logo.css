@@ -1,6 +1,29 @@
-.degrad img{
-	width : 10%;
-	height : 10%;
+#youtube{
+	width: 10%;
+	height: 10%;
+	margin-left: 35%;
 }
-
-div.degrad{}
+#wikipedia, #google{
+	width: 10%;
+	height: 10%;
+}
+.info{
+	text-align: center;
+	font-family: Courier;
+	color:darkblue;
+}
+#instagram{
+	width: 10%;
+	height: 10%;
+	margin-left: 35%;
+}
+#twitter, #facebook{
+	width :10%;
+	height: 10%;
+}
+#gmail{
+	display: block;
+	margin:auto;
+	width: 20%;
+	height: 20%;
+}

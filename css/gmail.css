@@ -1,10 +1,32 @@
-input{
-	background: black;
-	color: white;
+.vous{
+	font-family: Courier;
+	font-size: xx-large;
+	font-style: italic;
+	color: red;
+	font-weight: bold;
 }
-
-input[type=submit], input[type=reset]{
-	background-image: linear-gradient(blue, black);
-	border: darkblue;
-	color: white;
+.fiche{
+	border : 2px dashed darkblue;
+	margin-left: 20%;
+	margin-right: 20%;
+	text-align: center;
+}
+.entete{
+	text-align: center;
+	font-family: Courier;
+	color:green;
+	font-weight: bold;
+}
+#lastname, #firstname, #altgender, #bday, #sport, #color, #tel, #email{
+	background-color: grey;
+	border: 2px outset green;
+}
+#val, #res{
+	display: block;
+	margin:auto;
+	width: 15%;
+	background-color: blue;
+	color: red;
+	border:1px solid blue;
+	font-weight: bold;
 }
