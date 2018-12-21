@@ -19,13 +19,18 @@ form{
 	font-family: Courier;
 	font-style: italic;
 	color: #B40431;
-
 }
 .first{
 	border: 2px solid red;
 }
 .second{
 	border: 2px solid #B40431;
+}
+#q0, #q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9{
+	color:white;
+	font-weight: bold;
+	text-align: center;
+	font-size: large;
 }
 #phr1{
 	color: #B40431;
@@ -55,14 +60,11 @@ fieldset{
 	font-weight: bold;
 	font-size: large;
 }
-#q1, #q2, #q3, #q4, #q5, #q6, #q7, #q8, #q9, #q10{
-	color:white;
-	font-weight: bold;
-	text-align: center;
-	font-size: large;
-}
 #verif, #reset{
-	background-color: black;
+	background-color: blue;
 	color: white;
-	border:1px solid lime;
+	border: 2px solid black;
+	height: 15%;
+	width: 18%;
+	display: block;
 }
