@@ -31,8 +31,8 @@ ol, ol li ol, ol li ol li ol{
 /*fin du CSS du gros titre*/
 
 /* début du CSS du sommaire*/
-.som{
-	font-family: Lucida Console;
+.som li a{
+	font-family: Courier;
 }
 .ssom{
 	font-weight: bold;
